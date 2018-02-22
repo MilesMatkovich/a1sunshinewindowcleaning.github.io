@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>A-1 Sunshine Window Cleaning</title>
+</head>
+
+<body>
+<ul class="ulbackground" style="position:center; top:0px;">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<li class="navbutton"><a href="index.html" class="list-link">Home</a></li>
+	<li class="navbutton"><a href="appointment.html" class="list-link">Schedule an Appointment</a></li>
+	<li class="navbutton"><a href="#.html" class="list-link">Pay a Bill</a></li>
+</ul><br><br><br>
+<ul class="logos" style="position:stretch">
+	<li class="logo" style="float:left"><a href="index.html" class="logo"><img src="images/logo.jpg" width=150 length=150></a></li></ul>
+<ul class="logos" style="position:stretch">
+	<li class="logo" style="float:right"><a href="index.html" class="logo"><img src="images/logo.jpg" width=150 length=150></a></li></ul>
+</ul><br><br><br><br><br>
+<h1 align="center">Scheduling an Appointment</h1>
+<h2 align="center">Before Continuing Please Read the Following:</h2>
+<p class="introa">For the time being, we are only allowing exterior appointments to be scheduled online. If you would like to schedule an <b><u>Exterior Window Cleaning</b></u> continue below. We are located in Wyandotte, Michigan, and we only accept jobs in the downriver area. This includes, but is not necessarily limited to:
+<ul class="cities" align="center">
+  <li>Grosse Ile</li>
+  <li>Wyandotte</li>
+  <li>Southgate</li>
+  <li>Allen Park</li>
+  <li>Riverview</li>
+  <li>Woodhaven</li>
+  <li>Trenton</li>
+  <li>Gilbralter</li>
+</ul>
+<p class="introa">If you are in our area and you need the outside of your windows cleaned, or you want to see how much we Shine, you can leave your name, address, phone number and/or email address, plus a description (or pictures) of your house or business down below. If you have any questions about your location, pricing, or anything else you can also leave them in the description box. If you are interested in our other services then contact us at (734) 285-1344.
+<form action="appointment2.php" method="post" class="appt">
+  <table align="center">
+  	<tr>
+  		<td>First Name:</td>
+  		<td><input type="text" name="fname" min="1" max="20" required></td>
+  	</tr>
+  	<tr>
+  		<td>Last Name:</td>
+  		<td><input type="text" name="lname" min="1" max="20" required></td>
+  	</tr>
+  	<tr>
+  		<td>Street:</td>
+  		<td><input type="text" name="street" min="1" max="100" required></td>
+  	</tr>
+  	<tr>
+  		<td>City:</td>
+  		<td><input type="text" name="city" min="1" max="100" required></td>
+  	</tr>
+  	<tr>
+  		<td>State:</td>
+  		<td><select><option>MI</option></select></td>
+  	</tr>
+  	<tr>
+  		<td>Zip:</td>
+  		<td><input type="text" name="zip" min="5" max="20" required></td>
+  	</tr>
+  	<tr>
+  		<td>Phone:</td>
+  		<td><input type="text" name="phone" min="7" max="10" required></td>
+  	</tr>
+    <tr>
+  		<td>Email:</td>
+  		<td><input type="email" name="email" min="1" max="100" required></td>
+  	</tr>
+    <tr>
+  		<td>Type of Home:</td>
+  		<td><input type="select" required placeholder="Choose One:" list="ToH" name="type">
+        <datalist id="ToH">
+          <option value="Colonial">
+          <option value="Ranch">
+          <option value="Victorian">
+          <option value="Business">
+          <option value="Other/Not Sure">
+        </datalist></td>
+  	</tr>
+    <tr>
+  		<td>Preferred Date of Cleaning:</td>
+  		<td><input type="date" name="date" required><p class="hint">**Please choose a date atleast two weeks away**</p></td>
+  	</tr>
+    <tr>
+  		<td>Description:</td>
+  		<td><input type="text" name="desc" placeholder="Optional..."min="0" max="140"><p class="hint">**Descrption is optional but it helps us a lot. Include things like: number of stories, garage, an estimated number of windows, questions, or things we need to know.**</p></td>
+  	</tr>
+    <tr>
+  		<td>Preferred Time of Cleaning:</td>
+      <td><input type="select" required placeholder="Choose One:" list="TimeofClean" name="timecl">
+        <datalist id="TimeofClean">
+          <option value="Between 9am and 12pm">
+          <option value="Between 12pm and 2pm">
+          <option value="Between 2pm and 5pm">
+          <option value="No Preference">
+        </datalist></td>
+  	</tr>
+    <tr><td></td><td></td>
+      <td><input type="submit" value="Submit"></td>
+    </tr>
+  </table>
+<p class="introa">Before submitting please note, after we review your request we will notify you via email if we can accept the job at the time requested. For some first time customers, we may have to get in touch to come meet with you and look at your house to figure out an estimate, so we can properly negotiate pricing. Payment can be done via, cash or check. After our visit, you will recieve an invoice through the mail.<br><br>
+</form>
+
+<footer class="foot">
+	<p>A-1 Sunshine Window Cleaning</p>
+	<p>Pine St.<br>Wyandotte, Mi<br>48192<br>(734)285-1344</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,104 @@
+.ulbackground{
+  background-color: #f4f442;
+  padding-left: 0px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-right: 0px;
+  margin: 0;
+  width: 100%;
+  align-content:center;
+  position: fixed;
+}
+
+body{
+  margin:0%;
+  padding:0px;
+}
+
+.navbutton{
+  display:inline;
+  font-size:28px;
+  padding:0px;
+  align-items:center;
+}
+
+.logo{
+  margin: 0px;
+  font-size:5px;
+  display: inline-block;
+  position:static;
+  padding: 0px 25px 5px 10px
+}
+
+.list-link{
+  text-decoration:none;
+  color: #4177f4;
+  padding: 16px 8px;
+}
+
+.list-link:hover{
+  background-color: #f4df41;
+}
+
+p.intro{
+  padding-left: 50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 50px;
+  font-size:20px;
+}
+
+p.introa{
+  padding-left: 50px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 50px;
+  font-size:18px;
+}
+
+p.hint{
+  font-size: 10px;
+}
+
+
+.tpics{
+  width: 150;
+  length: 275;
+  padding: 10px 35px 10px 25px;
+}
+
+.foot{
+  padding: 0px 0px 0px 0px;
+  background-color: #f4f442;
+  color: #4177f4;
+  text-align: center;
+  font-size: .75em;
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.appt{
+  text-align: justify;
+}
+
+ul.cities{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media only screen		/*--wide screen -*/
+		and (min-device-width: 480px)
+		and (min-width: 700px)
+		{
+			section
+			{
+				float: left;
+				width: 70%;
+			}
+			nav
+			{
+				float: left;
+				width: 15%;
+			}
+		}
